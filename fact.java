@@ -22,7 +22,7 @@ public class fact
 		}
 		else if(i<0)
 		{
-			System.out.println("factorial is not defined"):
+			System.out.println("factorial is not defined");
 		}
 		else
 		{
