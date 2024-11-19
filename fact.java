@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class fact
 {
-        public int fact(int i)
+        public static int fact(int i)
 	{
 		if(i==1)
 			return 1;
