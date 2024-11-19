@@ -15,7 +15,8 @@ public class fact
 		System.out.print("enter the factorial");
 		Scanner obj=new Scanner(System.in);
 		i=obj.nextInt();
-		int res=fact(i);
+		fact objfact=new fact();
+		int res=objfact.fact(i);
 		if(i>0)
 		{
 		System.out.println("The factorial is:"+res);
